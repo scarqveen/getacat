@@ -1,0 +1,93 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+clear: both;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html {
+  /*background-image: url(https://placekitten.com/1980/1080);*/
+  background: rgb(249, 239, 228);
+  font-family: 'Nunito', sans-serif;
+}
+
+.container {
+  margin: 8% 32%;
+  padding: 10px;
+  width: 620px;
+  height: 300px;
+  background:  rgb(249, 239, 228);
+  border-radius: 15px;
+  box-shadow: 10px 5px 20px rgb(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1, h2{
+  text-align: center;
+}
+
+img {
+  height: 80px;
+  width: 150px;
+  object-fit: cover;
+}
+
+ul{
+  justify-self: center;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 600px;
+}
+
+li {
+  border-radius: 10px;
+  box-shadow: 10px 5px 20px rgb(0, 0, 0, 0.2);
+  background-color:  rgb(127, 121, 114);
+  color: beige;
+  padding: 10px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  padding: 5px;
+}
+
+.catStage {
+  /*border: solid gray 1px;*/
+  height: 300px;
+  width: 300px;
+  margin: -4% 42%;
+  object-fit: scale-down;
+  background-size:contain;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
